@@ -1,0 +1,11 @@
+body{
+    background-color: #617fc0;
+}
+
+/* aplica se o css se o viewport tiver 500px de largura, ouseja, viewport maior que 500px de largura */
+
+@media only screen and (min-width: 500px){
+    body{
+        background-color: #72b68e;
+    }
+}
