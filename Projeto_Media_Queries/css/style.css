@@ -2,10 +2,23 @@ body{
     background-color: #617fc0;
 }
 
-/* aplica se o css se o viewport tiver 500px de largura, ouseja, viewport maior que 500px de largura */
+/* aplica se o css se o viewport tiver 990px de largura, ouseja, viewport maior que 990px de largura */
+
+@media only screen and (min-width: 990px){
+    body{
+        background-color: #a6e9a0;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    body{
+        background-color: #6295be;
+    }
+}
 
 @media only screen and (min-width: 500px){
     body{
-        background-color: #72b68e;
+        background-color: #d991e2;
     }
 }
