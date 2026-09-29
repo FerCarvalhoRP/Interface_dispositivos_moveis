@@ -33,6 +33,9 @@ classe "container" */
 
 header{
     background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 a.logo{
@@ -44,6 +47,10 @@ a.logo{
 
 a.logo>img{
     width: 100%;
+}
+
+ul{
+    
 }
 
 li{
